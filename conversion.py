@@ -11,3 +11,9 @@ def characters_to_numbers(usr_name):
         number = alphabet.index(character) + 1
         number_name.append(number)
     return number_name
+
+def sum_of_numbers(num_list):
+    name_sum = 0
+    for num in num_list:
+        name_sum += num
+    return name_sum
